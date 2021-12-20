@@ -16,14 +16,20 @@ img {
 ul{
   list-style-type: none;
   display: flex;
+  padding: 8px;
 }
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 12px;
 }
-
+a{
+  text-decoration: none;
+  color:#5a5a5a;
+  padding: 8px;
+}
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
@@ -35,7 +41,6 @@ input {
 .header {
   display:flex;
   justify-content: space-between;
-  padding: 8px;
 }
 .footer{
   background-color: #eeeeee;
@@ -43,7 +48,7 @@ input {
 
 .content {
   display:flex;
+  align-items: center;
   flex-direction: column;
-  justify-content: center;
 }
 
