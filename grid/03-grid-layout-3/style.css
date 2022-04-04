@@ -29,19 +29,24 @@
 }
 
 .logo {
+  justify-self:center;
 }
 
 .menu {
+  align-self: center;
+  
 }
 
 .menu ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  justify-self:center;
 }
 
 .menu ul,
 .menu li {
   font-size: 16px;
+  list-style-type: none;
 }
 
 .sidebar {
@@ -61,6 +66,8 @@
 }
 
 .photo  {
+  display:grid;
+  align-items: center;
 }
 
 .sidebar .side-content {
@@ -68,6 +75,8 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
+  display:grid;
+  align-items: center;
 }
 
 .nav {
@@ -83,13 +92,15 @@
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
+
+  list-style-type: none;
 }
 
 .article {
   background-color: #bccbde;
-  grid-column: 2/3;
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
   gap: 15px;
   
 }
